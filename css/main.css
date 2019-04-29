@@ -1,0 +1,41 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+table {
+    width: 75vmin;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+td {
+    border: 6px solid black;
+    width: 33.3%;
+    font-size: 30px;
+    vertical-align: middle;
+}
+td:after {
+    content: "";
+    display: block;
+    margin-top: 100%;
+}
+td:first-of-type {
+    border-left-color: transparent;
+    border-top-color: transparent;
+}
+td:nth-of-type(2) {
+    border-top-color: transparent;
+}
+td:nth-of-type(3) {
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+tr:nth-of-type(3) td{
+    border-bottom-color: transparent;
+}
+input {
+    margin-bottom: 5vmin;
+}
+h1 {
+    text-decoration: underline;
+}
